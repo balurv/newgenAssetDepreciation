@@ -11,7 +11,7 @@ public class DepreciationFactory {
 		else if(type == DepreciationType.SLM){
 			return new SLMDepreciation();
 		}
-//		else if(type == )
+//		else if(type == ) add new type of depreciation methods
 		throw new MissingFormatArgumentException("type mismatch");
 	}
 }
